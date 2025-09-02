@@ -21,7 +21,7 @@ const Chatbot = () => {
     {
       id: 1,
       type: 'bot',
-      content: "Hello! I'm Apollo, your AI healthcare assistant. Feel free to ask about your symptoms, conditions, medications, or any health-related questions. How can I help you today?",
+      content: "Hello! I'm Cura, your AI healthcare assistant. Feel free to ask about your symptoms, conditions, medications, or any health-related questions. How can I help you today?",
       timestamp: new Date()
     }
   ]);
@@ -32,11 +32,8 @@ const Chatbot = () => {
 
   const languages = [
     { code: 'EN', name: 'English' },
-    { code: 'HI', name: 'हिंदी' },
-    { code: 'FR', name: 'Français' },
-    { code: 'ZH', name: '中文' },
-    { code: 'ES', name: 'Español' },
-    { code: 'AR', name: 'العربية' }
+    { code: 'ES', name: 'Español' }
+    
   ];
 
   const chatHistory = [
@@ -232,7 +229,7 @@ const Chatbot = () => {
               </button>
             </div>
             <div className="mt-2 text-xs text-gray-500 text-center">
-              Apollo AI can make mistakes. Please consult healthcare professionals for medical advice.
+             CURA AI can make mistakes. Please consult healthcare professionals for medical advice.
             </div>
           </div>
         </div>

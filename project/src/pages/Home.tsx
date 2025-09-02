@@ -7,7 +7,7 @@ const Home = () => {
     {
       icon: Brain,
       title: 'Persistent Memory',
-      description: 'Apollo remembers your medical history and previous conversations for personalized care.'
+      description: 'CURA remembers your medical history and previous conversations for personalized care.'
     },
     {
       icon: Users,
