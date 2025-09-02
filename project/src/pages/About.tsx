@@ -48,7 +48,7 @@ const About = () => {
     {
       year: '2023',
       title: 'Project Inception',
-      description: 'Apollo project launched with the vision of democratizing healthcare AI globally.'
+      description: ' project launched with the vision of democratizing healthcare AI globally.'
     },
     {
       year: '2023 Q2',
@@ -108,7 +108,7 @@ const About = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-white">
             About{' '}
             <span className="bg-gradient-to-r from-violet-400 to-blue-400 bg-clip-text text-transparent">
-              Apollo
+             CURA
             </span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
@@ -123,7 +123,7 @@ const About = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-white">Our Mission</h2>
             <p className="text-lg text-gray-300 leading-relaxed">
               Healthcare should be accessible to everyone, regardless of language, location, or economic status. 
-              Apollo was born from the realization that while medical knowledge exists globally, language barriers 
+              CURA was born from the realization that while medical knowledge exists globally, language barriers 
               and healthcare disparities prevent millions from accessing quality medical guidance.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed">

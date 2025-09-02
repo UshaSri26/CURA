@@ -12,7 +12,7 @@ const Navbar = () => {
     { name: 'Home', path: '/' },
     { name: 'Use Cases', path: '/use-cases' },
     { name: 'Features', path: '/features' },
-    { name: 'Try Apollo', path: '/chatbot' },
+    { name: 'Try Cura', path: '/chatbot' },
     { name: 'Contact', path: '/contact' },
     { name: 'About', path: '/about' },
   ];
@@ -28,7 +28,7 @@ const Navbar = () => {
             <div className="bg-violet-600 p-1.5 rounded-lg group-hover:bg-violet-500 transition-colors">
               <Activity className="h-5 w-5 text-white" />
             </div>
-            <span className="text-lg font-bold text-gray-900 dark:text-white">Apollo</span>
+            <span className="text-lg font-bold text-gray-900 dark:text-white">CURA</span>
           </Link>
 
           {/* Desktop Navigation */}
