@@ -15,31 +15,23 @@ import {
 const About = () => {
   const teamMembers = [
     {
-      name: 'Dr. Sarah Chen',
-      role: 'Chief Medical Officer',
-      image: 'https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'MD, PhD in Medical AI with 15+ years in healthcare innovation.',
+      name: 'Afsin',
       social: { linkedin: '#', github: '#' }
     },
     {
-      name: 'Alex Rodriguez',
-      role: 'Lead AI Engineer',
-      image: 'https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'PhD in Machine Learning, former Google AI researcher.',
+      name: 'Sohani',
       social: { linkedin: '#', github: '#' }
     },
     {
-      name: 'Dr. Priya Sharma',
-      role: 'Clinical Research Director',
-      image: 'https://images.pexels.com/photos/5327653/pexels-photo-5327653.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'MBBS, MS in Public Health, specialist in global health systems.',
+      name: 'Usha Sri',
       social: { linkedin: '#', github: '#' }
     },
     {
-      name: 'Michael Thompson',
-      role: 'Head of Engineering',
-      image: 'https://images.pexels.com/photos/3778966/pexels-photo-3778966.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Full-stack engineer with expertise in scalable healthcare systems.',
+      name: 'Divya',
+      social: { linkedin: '#', github: '#' }
+    },
+    {
+      name: 'Vishnu Priya',
       social: { linkedin: '#', github: '#' }
     }
   ];
