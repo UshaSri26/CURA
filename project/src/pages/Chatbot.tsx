@@ -282,7 +282,7 @@ const SidebarContent = ({ isMemoryOn, setIsMemoryOn, chatHistory, onClose }: any
           </button>
         </div>
         <p className="text-xs text-gray-400 mt-1">
-          {isMemoryOn ? 'Apollo remembers your conversations' : 'Each chat starts fresh'}
+          {isMemoryOn ? 'Cura remembers your conversations' : 'Each chat starts fresh'}
         </p>
       </div>
 

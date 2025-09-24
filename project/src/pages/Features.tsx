@@ -29,7 +29,7 @@ const Features = () => {
     {
       icon: Clock,
       title: 'Memory Across Sessions',
-      description: 'Apollo remembers your medical history and previous conversations for personalized care.',
+      description: 'Cura remembers your medical history and previous conversations for personalized care.',
       details: [
         'Persistent conversation history',
         'Medical timeline tracking',
@@ -66,7 +66,7 @@ const Features = () => {
     'Reduce diagnostic errors by up to 40%',
     'Save healthcare providers 2+ hours daily',
     'Improve patient satisfaction scores',
-    'Support 6B+ people in their native language',
+    'Support 2B+ people in their native language',
     'Available 24/7 without downtime',
     'Continuous learning and improvement'
   ];

@@ -48,11 +48,11 @@ const Home = () => {
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white leading-tight">
                   Smarter Healthcare,{' '}
                   <span className="bg-gradient-to-r from-violet-400 to-blue-400 bg-clip-text text-transparent">
-                    Powered by Apollo
+                    Powered by Cura
                   </span>
                 </h1>
                 <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed max-w-xl">
-                  Apollo is a lightweight multilingual medical LLM designed to bring healthcare AI to 6B+ people in 6 languages.
+                  Cura is a lightweight multilingual medical LLM designed to bring healthcare AI to 2B+ people in 2 languages.
                 </p>
               </div>
               
@@ -61,7 +61,7 @@ const Home = () => {
                   to="/features"
                   className="group bg-violet-600 hover:bg-violet-700 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 flex items-center justify-center space-x-2 shadow-lg hover:shadow-violet-500/25 text-sm"
                 >
-                  <span>Explore Apollo</span>
+                  <span>Explore Cura</span>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
                 <Link
@@ -100,7 +100,7 @@ const Home = () => {
               Powerful Features for Better Healthcare
             </h2>
             <p className="text-base text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              Apollo combines cutting-edge AI with medical expertise to provide personalized healthcare assistance.
+              Cura combines cutting-edge AI with medical expertise to provide personalized healthcare assistance.
             </p>
           </div>
 
@@ -129,13 +129,13 @@ const Home = () => {
               Ready to Experience Smarter Healthcare?
             </h2>
             <p className="text-base text-gray-600 dark:text-gray-300 mb-6 max-w-2xl mx-auto">
-              Join thousands of users who trust Apollo for their healthcare needs. Start your conversation today.
+              Join thousands of users who trust Cura for their healthcare needs. Start your conversation today.
             </p>
             <Link
               to="/chatbot"
               className="group bg-violet-600 hover:bg-violet-700 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 inline-flex items-center space-x-2 shadow-lg hover:shadow-violet-500/25 text-sm"
             >
-              <span>Try Apollo Now</span>
+              <span>Try Cura Now</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>

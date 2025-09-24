@@ -120,7 +120,7 @@ const UseCases = () => {
                 <div className="w-16 h-16 bg-violet-600 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Heart className="w-8 h-8 text-white" />
                 </div>
-                <div className="text-3xl font-bold text-white mb-2">6B+</div>
+                <div className="text-3xl font-bold text-white mb-2">2B+</div>
                 <div className="text-gray-300">People Supported</div>
               </div>
               <div className="text-center">

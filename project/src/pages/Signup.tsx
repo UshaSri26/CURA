@@ -107,10 +107,10 @@ const Signup = () => {
             <div className="bg-violet-600 p-2 rounded-lg group-hover:bg-violet-500 transition-colors">
               <Activity className="h-6 w-6 text-white" />
             </div>
-            <span className="text-xl font-bold text-gray-900 dark:text-white">Apollo</span>
+            <span className="text-xl font-bold text-gray-900 dark:text-white">Cura</span>
           </Link>
           <h2 className="mt-6 text-2xl font-bold text-gray-900 dark:text-white">Create your account</h2>
-          <p className="mt-2 text-gray-600 dark:text-gray-400 text-sm">Join Apollo and get personalized healthcare AI</p>
+          <p className="mt-2 text-gray-600 dark:text-gray-400 text-sm">Join Cura and get personalized healthcare AI</p>
         </div>
 
         <div className="bg-white dark:bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-gray-200 dark:border-white/20 shadow-2xl">
