@@ -25,7 +25,7 @@ const UseCases = () => {
       icon: Globe,
       title: 'Medical Translation',
       description: 'Communicate medical information across language barriers with accurate translations.',
-      features: ['6 language support', 'Medical terminology', 'Cultural context', 'Real-time translation'],
+      features: ['2 language support', 'Medical terminology', 'Cultural context', 'Real-time translation'],
       color: 'from-blue-500 to-cyan-500'
     },
     {
@@ -127,7 +127,7 @@ const UseCases = () => {
                 <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Globe className="w-8 h-8 text-white" />
                 </div>
-                <div className="text-3xl font-bold text-white mb-2">6</div>
+                <div className="text-3xl font-bold text-white mb-2">2</div>
                 <div className="text-gray-300">Languages Supported</div>
               </div>
               <div className="text-center">

@@ -18,7 +18,7 @@ const Features = () => {
     {
       icon: MessageSquare,
       title: 'Real-time Multilingual Chat',
-      description: 'Seamless communication in 6 languages with instant translation and context preservation.',
+      description: 'Seamless communication in 2 languages with instant translation and context preservation.',
       details: [
         'Live language switching',
         'Context-aware translations',

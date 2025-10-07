@@ -22,7 +22,7 @@ const Home = () => {
     {
       icon: Globe,
       title: 'Multilingual Support',
-      description: 'Communicate in 6 languages: English, Hindi, French, Chinese, Spanish, and Arabic.'
+      description: 'Communicate in 2 languages: English and Spanish.'
     },
     {
       icon: Image,
