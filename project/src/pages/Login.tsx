@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Mail, Lock, Eye, EyeOff, Activity, AlertCircle, CheckCircle } from 'lucide-react';
+import { useAuth } from '../contexts/AuthContext';
 
 const Login = () => {
+  const { login } = useAuth();
+  const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [errors, setErrors] = useState<{ [key: string]: string }>({});
@@ -44,6 +47,7 @@ const Login = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    console.log('Login form submitted:', formData);
 
     const newErrors = validateForm();
     if (Object.keys(newErrors).length > 0) {
@@ -55,23 +59,45 @@ const Login = () => {
     setErrors({});
 
     try {
-      await new Promise((resolve) => setTimeout(resolve, 2000));
+      console.log('Attempting login...');
+      await login(formData.email, formData.password);
+      console.log('Login successful');
       setSuccess('Login successful! Redirecting...');
       setTimeout(() => {
-        console.log('Login successful:', formData);
+        navigate('/');
       }, 1000);
-    } catch (error) {
+    } catch (error: any) {
+      console.error('Login error:', error);
       setErrors({
-        general:
-          'Login failed. Please check your credentials and try again.',
+        general: error.message || 'Login failed. Please check your credentials and try again.',
       });
     } finally {
       setIsLoading(false);
     }
   };
 
-  const handleGoogleLogin = () => {
-    console.log('Google login initiated');
+  const handleGoogleLogin = async () => {
+    try {
+      console.log('Google login initiated');
+      // For now, simulate Google login with test data
+      // In a real app, you would integrate with Google OAuth
+      const mockGoogleUser = {
+        email: 'test@gmail.com',
+        firstName: 'Google',
+        lastName: 'User',
+        username: 'googleuser'
+      };
+      
+      // Simulate successful Google login
+      setSuccess('Google login successful! Redirecting...');
+      setTimeout(() => {
+        navigate('/');
+      }, 1000);
+    } catch (error: any) {
+      setErrors({
+        general: 'Google login failed. Please try again.',
+      });
+    }
   };
 
   return (
